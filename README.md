@@ -14,6 +14,21 @@ Goals:
 * Scipy
 * Matplotlib
 
-# Questions
-1. The summary DataFrame shows that there is a correlation between the number of rides and the average fare per ride. The more rides in a given area the lower the average fare per ride will be. The same can be said for the relationship between the number of drivers and average fare per driver. The rideshare company makes more money in areas of denser population, due to high sums of total fares. While individual drivers make more money in a rural areas, due to very low competition. 
-2. The line graph that shows the sum of total fares by city type over time depicts that the total fares stay relatively stable for each city type. The urban city type had the highest sum of total fares, which is to be expected. 
+# Visuals
+![](pyber1.png)
+This bubble chart shows the number of rides per city type with the average fare. It also shows the correlation of the number of drivers and the city type.
+
+![](pyber2.png)
+The box and whisker plot (above) shows the minimum, median, maximum, and the interquartile range (the 25th and 75th percentiles) of the number of rides in each city type.
+
+![](pyber3.png)
+
+This box and whisker plot (above) shows minimum, median, maximum, and the interquartile range of the ride fares in an urban city type. Along with the box and whisker plot there are summary statistics of the ride fares in an urban city. The urban city type was singled out because it has the most robust data out of the city types.
+
+![](pyber4.png)
+
+The box and whisker plot, above, shows minimum, median, maximum, and the interquartile range of the number of drivers in an urban city type. Along with the box and whisker plot there are summary statistics of the number of drivers in an urban city. The urban city type was singled out because it has the most robust data out of the city types.
+
+![](pyber5.png)
+
+The pie chart demonstrates the percentage of rides by city type. Validating the decision to single out the urban city for further analysis.
